@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Support Ticket Classifier</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <main class="app-shell">
+      <section class="workspace">
+        <div class="editor-panel">
+          <div>
+            <p class="eyebrow">Support analytics</p>
+            <h1>Ticket Classifier</h1>
+            <p class="subtitle">Classify incoming support messages by category and priority so teams can respond faster.</p>
+          </div>
+
+          <label for="ticketText">Ticket message</label>
+          <textarea id="ticketText" rows="10" placeholder="Paste a customer support ticket here...">The app is down and our team cannot access customer records.</textarea>
+
+          <div class="actions">
+            <button id="classifyBtn" type="button">Classify ticket</button>
+            <button id="sampleBtn" class="secondary" type="button">Use sample</button>
+          </div>
+        </div>
+
+        <aside class="result-panel" aria-live="polite">
+          <p class="eyebrow">Prediction</p>
+          <div class="metric">
+            <span>Category</span>
+            <strong id="category">Waiting</strong>
+          </div>
+          <div class="metric">
+            <span>Priority</span>
+            <strong id="priority">Waiting</strong>
+          </div>
+          <div>
+            <h2>Confidence</h2>
+            <div id="confidenceList" class="confidence-list"></div>
+          </div>
+          <p id="status" class="status">Enter a ticket and run classification.</p>
+        </aside>
+      </section>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
+

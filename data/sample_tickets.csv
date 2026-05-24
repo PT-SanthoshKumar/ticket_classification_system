@@ -1,0 +1,79 @@
+ticket_text,category,priority
+"My payment failed twice but the amount was deducted from my bank account.",Billing,High
+"I need a copy of last month's invoice for our records.",Billing,Low
+"The refund promised by your team has not reached my card after ten business days.",Billing,Medium
+"Our subscription was charged twice after upgrading the plan.",Billing,High
+"Can you explain the taxes shown on my latest bill?",Billing,Low
+"The app crashes every time I try to upload a document.",Technical,High
+"I cannot reset my password because the reset email never arrives.",Account,Medium
+"The dashboard is loading very slowly after the latest update.",Technical,Medium
+"Two factor authentication codes are not working for my account.",Account,High
+"How do I change the email address linked to my profile?",Account,Low
+"I want to cancel my plan at the end of this billing cycle.",Account,Medium
+"My admin user cannot invite new team members.",Account,Medium
+"The exported CSV file has missing columns and incorrect totals.",Technical,Medium
+"Your service is down for our whole office and we cannot access customer data.",Technical,High
+"Where can I find the API documentation for webhooks?",Technical,Low
+"The product arrived damaged and I need a replacement quickly.",Shipping,High
+"My order tracking page has not updated for four days.",Shipping,Medium
+"Can I change the delivery address before the package ships?",Shipping,Medium
+"The package was marked delivered but I did not receive it.",Shipping,High
+"What shipping options are available for international orders?",Shipping,Low
+"I love the new reporting feature, but it would help to export charts as images.",Feedback,Low
+"Please add dark mode to the mobile app.",Feedback,Low
+"The new layout makes it harder to find open tickets.",Feedback,Medium
+"Your support team was helpful and solved my login issue quickly.",Feedback,Low
+"We found a typo on the pricing page.",Feedback,Low
+"A user gained access to a private workspace they should not see.",Security,High
+"I received a suspicious login alert from another country.",Security,High
+"How can I download our security compliance documents?",Security,Low
+"Please remove an old employee's access immediately.",Security,High
+"Can you explain your data retention policy?",Security,Low
+"The card on file was declined but I used the correct billing details.",Billing,Medium
+"I was charged after cancelling and need the payment reversed.",Billing,High
+"Please update the purchase order number on my invoice.",Billing,Low
+"The receipt download button returns a blank page.",Billing,Medium
+"Our annual invoice has the wrong company address.",Billing,Low
+"The checkout page shows an error when I submit payment.",Billing,High
+"Can you resend the payment confirmation email?",Billing,Low
+"My plan still shows as unpaid even though the bank transfer completed.",Billing,Medium
+"Video calls freeze whenever screen sharing starts.",Technical,Medium
+"The mobile app will not open after the update.",Technical,High
+"Search results are returning old deleted records.",Technical,Medium
+"The integration endpoint returns a 500 server error.",Technical,High
+"Images are not uploading to the knowledge base.",Technical,Medium
+"The notification settings page does not save my changes.",Technical,Medium
+"Can you help me configure the API token?",Technical,Low
+"Reports take more than five minutes to generate.",Technical,Medium
+"I need to unlock my account after too many login attempts.",Account,Medium
+"Please transfer ownership of the workspace to another manager.",Account,Medium
+"A former contractor still appears in our user list.",Account,High
+"I cannot update my phone number for verification.",Account,Medium
+"How do I add a new billing admin?",Account,Low
+"Please merge two duplicate accounts created by mistake.",Account,Medium
+"I want to reactivate an account that was closed last month.",Account,Medium
+"Can I change my display name in the portal?",Account,Low
+"The courier says the shipment is delayed by a week.",Shipping,Medium
+"I paid for express shipping but the order arrived late.",Shipping,Medium
+"The box arrived empty and the product is missing.",Shipping,High
+"Please split my order into two shipments.",Shipping,Low
+"My replacement item was sent to the wrong city.",Shipping,High
+"Can you hold delivery until Monday?",Shipping,Low
+"The tracking number says invalid on the carrier website.",Shipping,Medium
+"I need a return label for a damaged item.",Shipping,Medium
+"It would be useful to filter tickets by custom tags.",Feedback,Low
+"The new dashboard colors are difficult to read.",Feedback,Low
+"Please make the export button easier to find.",Feedback,Low
+"The latest navigation change slowed down our workflow.",Feedback,Medium
+"I have a suggestion for improving saved replies.",Feedback,Low
+"Your onboarding emails were clear and helpful.",Feedback,Low
+"The mobile layout feels crowded on small screens.",Feedback,Medium
+"Please add keyboard shortcuts for frequent actions.",Feedback,Low
+"Someone reset my password without my approval.",Security,High
+"We need to rotate all API keys after a staff change.",Security,High
+"Please provide the latest SOC 2 report for our audit.",Security,Low
+"An employee can still view files after being removed from a team.",Security,High
+"I need help enforcing single sign on for all users.",Security,Medium
+"Can you confirm whether data is encrypted at rest?",Security,Low
+"We detected unusual export activity from an unknown IP address.",Security,High
+"Please disable all sessions for a compromised account.",Security,High
